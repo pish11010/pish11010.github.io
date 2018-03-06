@@ -48,11 +48,20 @@ $(function(){
             Carousels / Resume, Testimonials, Customers /
     =========================================================================*/
       $(".customer-carousel").owlCarousel({
-        items: 7
+        items: 7,
+        autoPlay: 1500,
+        stopOnHover: true
       });
 
-      $(".resume-carousel, .testimonial-carousel").owlCarousel({
-        singleItem:true
+      $(".resume-carousel").owlCarousel({
+        singleItem:true,
+        autoPlay: 4000,
+        stopOnHover: true
+      });
+      $(".testimonial-carousel").owlCarousel({
+        singleItem:true,
+        autoPlay: 3000,
+        stopOnHover: true
       });
 
     /*=========================================================================
