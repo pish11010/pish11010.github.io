@@ -22,8 +22,8 @@ $(function(){
     /*=========================================================================
             Portfolio filter
     =========================================================================*/
-      if($('#works .item-outer').length > 0){
-        var filterizd = $('#works .item-outer').filterizr();
+      if($('#travels .item-outer').length > 0){
+        var filterizd = $('#travels .item-outer').filterizr();
       }
       $( '.control ul li' ).on( 'click', function() {
             $( this ).parent().find( 'li.active' ).removeClass( 'active' );
@@ -59,9 +59,10 @@ $(function(){
             Backstretch Background Slider
     =========================================================================*/
     $("#welcome").backstretch([
-        "http://placehold.it/1200x768",
-        "http://placehold.it/1200x768",
-        // "assets/images/your_pic.jpg" 
+        "assets/images/welcome0.jpg",
+        "assets/images/welcome1.jpg",
+        "assets/images/welcome2.jpg",
+        "assets/images/welcome3.jpg",
     ], {duration: 5000, fade: 400});
 
     /*=========================================================================
