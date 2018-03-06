@@ -48,7 +48,7 @@ $(function(){
             Carousels / Resume, Testimonials, Customers /
     =========================================================================*/
       $(".customer-carousel").owlCarousel({
-        items: 4
+        items: 7
       });
 
       $(".resume-carousel, .testimonial-carousel").owlCarousel({

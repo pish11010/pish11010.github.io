@@ -990,7 +990,7 @@ li {
 /*                      SECTION CUSTOMERS                          */
 /*-----------------------------------------------------------------*/
 .customers {
-    background: url(http://placehold.it/740x270) center left no-repeat;
+    background: url(../images/devskill.jpg) center left no-repeat;
     background-size: cover;
 }
 
@@ -999,12 +999,14 @@ li {
 }
 
 .customers .item {
-    margin-right: 24px;
+    text-align: center;
     position: relative;
     z-index: 1;
 }
 
-.customers .item img {
+.customers .item i {
+    color: #ffffff;
+    font-size: 5rem;
     max-width: 100%;
     opacity: .5;
     height: auto;
@@ -1014,7 +1016,7 @@ li {
     transition: all .3s ease-in-out;
 }
 
-.customers .item img:hover {
+.customers .item i:hover {
     opacity: 1;
 }
 
